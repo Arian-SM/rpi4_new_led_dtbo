@@ -21,5 +21,8 @@ examine this little project by turnning the led on and off using the following c
 echo 1 > /sys/class/leds/new_led/brightness // Turnning GPIO 18 on
 echo 0 > /sys/class/leds/new_led/brightness // Turnning GPIO 18 off
 ```
-## Compile on the Host
-TODO
+## TODO
+Following sections should be added:
+1. Introduction
+2. Compile on the Host
+3. Loading dynamically using `dtoverlay`
