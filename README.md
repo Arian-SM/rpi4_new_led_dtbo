@@ -1,4 +1,6 @@
 # Your First dtb Overlay With Raspberry Pi 4
+
+## Compile on the Target
 Compile using the following command:
 ```bash
 dtc -@ -I dts -O dtb -o led-overlay.dtbo led-overlay.dts
@@ -19,4 +21,5 @@ examine this little project by turnning THE led on and off using the following c
 echo 1 > /sys/class/leds/new_led/brightness // Turnning GPIO 18 on
 echo 0 > /sys/class/leds/new_led/brightness // Turnning GPIO 18 off
 ```
-
+## Compile on the Host
+TODO
